@@ -5,6 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 def kNeigh(X, y):
     neigh = KNeighborsClassifier(n_neighbors=2)
+
     neigh.fit(X, y)
     return neigh
 
